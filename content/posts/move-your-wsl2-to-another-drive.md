@@ -1,6 +1,6 @@
 +++
 date = '2025-04-06T17:10:55+07:00'
-draft = true
+draft = false
 title = 'Move Your Wsl2 to Another Drive'
 +++
 
