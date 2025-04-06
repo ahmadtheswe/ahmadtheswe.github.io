@@ -1,0 +1,9 @@
+# Hugo
+/public/
+/resources/_gen/
+/node_modules/
+/hugo_stats.json
+
+# Optional OS files
+.DS_Store
+Thumbs.db
