@@ -1,7 +1,41 @@
 baseURL = 'https://ahmadtheswe.github.io/'
 languageCode = 'en-us'
 title = 'Ahmad The SWE Blog'
-theme = 'ananke'
+theme = "hugo-theme-m10c"
 [caches]
-    [caches.images]
-        dir = ':cacheDir/images'
+  [caches.images]
+    dir = ':cacheDir/images'
+
+[params]
+  author = "Ahmad Mujahid"
+  description = "A pragmatic script painter"
+  avatar = "https://github.com/ahmadtheswe.png"
+  menu_item_separator = " - "
+    [[params.social]]
+      icon = "brand-github"
+      name = "Github"
+      url = "https://github.com/ahmadtheswe"
+    [[params.social]]
+      icon = "brand-x"
+      name = "X"
+      url = "https://x.com/ahmadtheswe"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 2
+  [[menu.main]]
+    identifier = "privacy-policy"
+    name = "Privacy Policy"
+    url = "/privacy-policy/"
+    weight = 3
+
+[pagination]
+  pagerSize = 5
