@@ -3,7 +3,6 @@ date = '2025-04-06T17:10:55+07:00'
 draft = false
 title = 'Move Your Wsl2 to Another Drive'
 +++
-
 Windows Subsystem Linux (WSL) is one of the most useful modern tools for software development, in my opinion. Since Windows offered this feature, we don't need to use fully virtualized Linux (using VMWare or VirtualBox) but can just use WSL that fully integrated with our Windows machine.
 
 The downside of WSL is we can't choose the directory to install it. I will installed by default in our system drive (C drive). This maybe not a problem if we allocate huge amount of storage for our C drive. But, the case is we commonly not allocate much storage for our system drive because we thought we will only use this drive to install essential things.
