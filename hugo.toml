@@ -1,6 +1,6 @@
 baseURL = 'https://ahmadtheswe.github.io/'
 languageCode = 'en-us'
-title = 'Ahmad The SWE Blog'
+title = 'ahmadtheswe Blog'
 theme = "hugo-theme-m10c"
 [caches]
   [caches.images]
@@ -19,6 +19,14 @@ theme = "hugo-theme-m10c"
       icon = "brand-x"
       name = "X"
       url = "https://x.com/ahmadtheswe"
+    [[params.social]]
+      icon = "brand-linkedin"
+      name = "LinkedIn"
+      url = "https://www.linkedin.com/in/ahmad-mujahid-abdurrahman"
+    [[params.social]]
+      icon = "brand-upwork"
+      name = "UpWork"
+      url = "https://www.upwork.com/freelancers/~010b8344148481447c"
 
 [menu]
   [[menu.main]]
@@ -38,4 +46,11 @@ theme = "hugo-theme-m10c"
     weight = 3
 
 [pagination]
-  pagerSize = 5
+  pagerSize = 10
+
+[params.style]
+  darkestColor = "#242930"
+  darkColor = "#353b43"
+  lightColor = "#afbac4"
+  lightestColor = "#ffffff"
+  primaryColor = "#57cc8a"
