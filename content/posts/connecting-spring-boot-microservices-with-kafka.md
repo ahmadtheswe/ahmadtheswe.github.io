@@ -3,6 +3,7 @@ date = '2023-07-10T23:27:03+07:00'
 draft = false
 title = 'Connecting Spring Boot Microservices With Kafka'
 author = 'ahmad'
+categories = ['kafka', 'spring-boot', 'java', 'microservices']
 tags = ['kafka', 'spring-boot', 'java', 'microservices']
 featuredImage = '/images/connecting-spring-boot-microservices-with-kafka/featured.png'
 +++

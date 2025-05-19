@@ -3,6 +3,7 @@ date = '2018-12-16T00:10:14+07:00'
 draft = false
 title = 'Make Your Own AVR Board'
 author = 'ahmad'
+categories = ['avr', 'microcontroller', 'atmega']
 tags = ['avr', 'microcontroller', 'atmega']
 +++
 AVR board is an important development device for many MCU enthusiasts. Sometimes, it can be costly for various reasons. But the good news is, making this board is not too complicated. You can create your own AVR development board with some electronic hobby spare parts from your lab.

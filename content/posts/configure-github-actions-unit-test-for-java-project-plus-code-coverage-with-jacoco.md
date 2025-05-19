@@ -3,6 +3,7 @@ date = '2023-07-24T14:46:00+07:00'
 draft = false
 title = 'Configure GitHub Actions Unit Test for Java Project (Plus code coverage with Jacoco)'
 author = 'ahmad'
+categories = ['github-actions', 'java', 'jacoco', 'spring-boot']
 tags = ['github-actions', 'java', 'jacoco', 'spring-boot']
 featuredImage = '/images/configure-github-actions-unit-test-for-java-project-plus-code-coverage-with-jacoco/featured.png'
 +++

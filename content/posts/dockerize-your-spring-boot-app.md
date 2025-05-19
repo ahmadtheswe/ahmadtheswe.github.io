@@ -3,6 +3,7 @@ date = '2023-06-02T23:20:11+07:00'
 draft = false
 title = 'Dockerize Your Spring Boot App'
 author = 'ahmad'
+categories = ['docker', 'spring-boot', 'java']
 tags = ['docker', 'spring-boot', 'java']
 featuredImage = '/images/dockerize-your-spring-boot-app/featured.png'
 +++

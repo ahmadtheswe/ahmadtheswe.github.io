@@ -3,6 +3,7 @@ date = '2023-11-13T17:10:55+07:00'
 draft = false
 title = 'Move Your WSL2 to Another Drive'
 author = 'ahmad'
+categories = ['wsl', 'windows', 'linux']
 tags = ['wsl', 'windows', 'linux']
 featuredImage = '/images/move-your-wsl2-to-another-drive/featured.png'
 +++
