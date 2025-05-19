@@ -1,8 +1,10 @@
 +++
-date = '2025-05-15T14:46:00+07:00'
+date = '2023-07-24T14:46:00+07:00'
 draft = false
 title = 'Configure GitHub Actions Unit Test for Java Project (Plus code coverage with Jacoco)'
 author = 'ahmad'
+tags = ['github-actions', 'java', 'jacoco', 'spring-boot']
+featuredImage = '/images/configure-github-actions-unit-test-for-java-project-plus-code-coverage-with-jacoco/featured.png'
 +++
 
 In this short article, we will talk about how to set up GitHub Actions for Java projects (such as Spring Boot projects). We also integrate Jacoco to produce code coverage information.
@@ -75,7 +77,7 @@ jacocoTestReport {
 
 In this part, we set up which location to save the code coverage report in HTML pages. We can use this to see the code coverage information when we test the code on our local machine. For the case of GitHub Action, we only use the .csv output for code coverage. The image below is an example of Jacoco output. But, we don't use it for this case.
 
-![Jacoco example](/images/coverage-1.webp)
+![Jacoco example](/images/configure-github-actions-unit-test-for-java-project-plus-code-coverage-with-jacoco/coverage-1.webp)
 
 By default, `jacoco` will save the .csv output in `build/reports/jacoco/test/jacocoTestReport.csv`. We will use this to configure the GitHub Action script in the next step.
 
@@ -190,27 +192,27 @@ To test whether your workflow is working or not, you must create a pull request 
 
 If all tests are passed, you will get this notification on your PR :
 
-![PR success](/images/coverage-2.webp)
+![PR success](/images/configure-github-actions-unit-test-for-java-project-plus-code-coverage-with-jacoco/coverage-2.webp)
 
 Otherwise, you will get a failed notification. You can use this information to consider whether you will accept the PR or not.
 
 You can click **Show all checks** to see the details. If you enter the details, you will see some information about the workflow that just ran.
 
-![Show all](/images/coverage-3.webp)
+![Show all](/images/configure-github-actions-unit-test-for-java-project-plus-code-coverage-with-jacoco/coverage-3.webp)
 
 Inside the **Run test** part, you can see the detail about the test execution.
 
-![Run test](/images/coverage-4.webp)
+![Run test](/images/configure-github-actions-unit-test-for-java-project-plus-code-coverage-with-jacoco/coverage-4.webp)
 
 ### Code Coverage
 
 To get the code coverage information, Open **your Github repository > Actions**. Then, you will get the list of all previously executed workflows, like this, the list is timely ordered :
 
-![Workflow list](/images/coverage-5.webp)
+![Workflow list](/images/configure-github-actions-unit-test-for-java-project-plus-code-coverage-with-jacoco/coverage-5.webp)
 
 If you choose one of them, you will get this :
 
-![Workflow detail](/images/coverage-6.webp)
+![Workflow detail](/images/configure-github-actions-unit-test-for-java-project-plus-code-coverage-with-jacoco/coverage-6.webp)
 
 In the **test summary** part, you can see your code coverage.
 

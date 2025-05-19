@@ -56,6 +56,22 @@ languageName = "English"
     Telegram = true
     Diaspora = false
     Weibo = false
+    Line = false
+
+  [params.search]
+    enable = false
+    type = "lunr"
+    contentLength = 4000
+    placeholder = ""
+    maxResultLength = 10
+    snippetLength = 30
+    highlightTag = "em"
+    absoluteURL = false
+
+  [params.search.algolia]
+    index = ""
+    appID = ""
+    searchKey = ""
 
 # Menu config
 [menu]
