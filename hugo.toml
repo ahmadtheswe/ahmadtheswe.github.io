@@ -45,6 +45,7 @@ languageName = "English"
     X = "ahmadtheswe"
     Instagram = "ahmadtheswe"
     Threads = "ahmadtheswe"
+    DevTo = "ahmadtheswe"
 
   [params.page.share]
     enable = true
@@ -57,6 +58,7 @@ languageName = "English"
     Diaspora = false
     Weibo = false
     Line = false
+    HackerNews = true
 
   [params.search]
     enable = false
