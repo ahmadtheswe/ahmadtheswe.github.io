@@ -2,6 +2,7 @@
 date = '2025-03-27T10:57:49+07:00'
 draft = false
 title = 'How to Export & Import Docker Image'
+author = 'ahmad'
 +++
 
 We can always pull docker images from docker registry. But, sometimes we need to share our images manually. In this post, I will share you how to import and export docker images.

@@ -1,56 +1,97 @@
-baseURL = 'https://ahmadtheswe.github.io/'
-languageCode = 'en-us'
-title = 'ahmadtheswe Blog'
-theme = "hugo-theme-m10c"
+baseURL = "https://ahmadtheswe.github.io/"
+languageCode = "en"
+title = "ahmadtheswe blog"
+theme = "LoveIt"
+languageName = "English"
+
 [caches]
   [caches.images]
-    dir = ':cacheDir/images'
+    dir = ":cacheDir/images"
 
 [params]
-  author = "Ahmad Mujahid"
+  title = "ahmadtheswe blog"
   description = "A pragmatic script painter"
-  avatar = "https://github.com/ahmadtheswe.png"
-  menu_item_separator = " - "
-    [[params.social]]
-      icon = "brand-github"
-      name = "Github"
-      url = "https://github.com/ahmadtheswe"
-    [[params.social]]
-      icon = "brand-x"
-      name = "X"
-      url = "https://x.com/ahmadtheswe"
-    [[params.social]]
-      icon = "brand-linkedin"
-      name = "LinkedIn"
-      url = "https://www.linkedin.com/in/ahmad-mujahid-abdurrahman"
-    [[params.social]]
-      icon = "brand-upwork"
-      name = "UpWork"
-      url = "https://www.upwork.com/freelancers/~010b8344148481447c"
+  defaultTheme = "auto"
 
+  [params.home.profile]
+    subtitle = "Welcome to ahmadtheswe blog, a place where I share my thoughts and ideas."
+    avatarURL = "https://github.com/ahmadtheswe.png"
+
+  [params.author]
+    name = "ahmad"
+    email = "ahmadtheswe@gmail.com"
+    link = ""
+
+  [params.header.title]
+    logo = "https://github.com/ahmadtheswe.png"
+    name = "ahmadtheswe blog"
+    pre = ""
+    post = ""
+    typeit = false
+
+  [params.footer]
+    enable = true
+    custom = ""
+    hugo = false
+    copyright = true
+    author = true
+    since = 2025
+    icp = ""
+    license= "ahmadtheswe"
+
+  [params.social]
+    GitHub = "ahmadtheswe"
+    Linkedin = "ahmad-mujahid-abdurrahman"
+    X = "ahmadtheswe"
+    Instagram = "ahmadtheswe"
+    Threads = "ahmadtheswe"
+
+  [params.page.share]
+    enable = true
+    X = true
+    Threads = true
+    Facebook = true
+    Linkedin = true
+    Whatsapp = true
+    Telegram = true
+    Diaspora = false
+    Weibo = false
+
+# Menu config
 [menu]
   [[menu.main]]
-    identifier = "home"
-    name = "Home"
-    url = "/"
     weight = 1
-  [[menu.main]]
     identifier = "posts"
+    pre = ""
+    post = ""
     name = "Posts"
     url = "/posts/"
-    weight = 2
+    title = ""
   [[menu.main]]
+    weight = 2
+    identifier = "tags"
+    pre = ""
+    post = ""
+    name = "Tags"
+    url = "/tags/"
+    title = ""
+  [[menu.main]]
+    weight = 3
+    identifier = "categories"
+    pre = ""
+    post = ""
+    name = "Categories"
+    url = "/categories/"
+    title = ""
+  [[menu.main]]
+    weight = 4
     identifier = "privacy-policy"
+    pre = ""
+    post = ""
     name = "Privacy Policy"
     url = "/privacy-policy/"
-    weight = 3
+    title = ""
 
-[pagination]
-  pagerSize = 10
-
-[params.style]
-  darkestColor = "#242930"
-  darkColor = "#353b43"
-  lightColor = "#afbac4"
-  lightestColor = "#ffffff"
-  primaryColor = "#57cc8a"
+[markup]
+  [markup.highlight]
+    noClasses = false

@@ -2,6 +2,7 @@
 date = '2025-04-06T17:10:55+07:00'
 draft = false
 title = 'Move Your Wsl2 to Another Drive'
+author = 'ahmad'
 +++
 Windows Subsystem Linux (WSL) is one of the most useful modern tools for software development, in my opinion. Since Windows offered this feature, we don't need to use fully virtualized Linux (using VMWare or VirtualBox) but can just use WSL that fully integrated with our Windows machine.
 

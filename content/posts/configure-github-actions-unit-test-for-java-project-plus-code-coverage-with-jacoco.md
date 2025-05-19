@@ -1,12 +1,8 @@
 +++
-title = 'Configure GitHub Actions Unit Test for Java Project (Plus code coverage with Jacoco)'
 date = '2025-05-15T14:46:00+07:00'
 draft = false
-featuredImage = "/images/coverage-2.webp"
-cover = "/images/coverage-2.webp"
-thumbnail = "/images/coverage-2.webp"
-featured_image = "/images/coverage-2.webp"
-images = ["/images/coverage-2.webp"]
+title = 'Configure GitHub Actions Unit Test for Java Project (Plus code coverage with Jacoco)'
+author = 'ahmad'
 +++
 
 In this short article, we will talk about how to set up GitHub Actions for Java projects (such as Spring Boot projects). We also integrate Jacoco to produce code coverage information.

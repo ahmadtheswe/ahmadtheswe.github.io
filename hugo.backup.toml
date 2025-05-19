@@ -1,0 +1,63 @@
+baseURL = "https://ahmadtheswe.github.io/"
+languageCode = "en"
+title = "ahmadtheswe blog"
+theme = "hugo-theme-m10c"
+
+[caches]
+  [caches.images]
+    dir = ":cacheDir/images"
+
+[params]
+  author = "Ahmad Mujahid"
+  description = "A pragmatic script painter"
+  avatar = "https://github.com/ahmadtheswe.png"
+  menu_item_separator = " - "
+
+  [[params.social]]
+    icon = "brand-github"
+    name = "Github"
+    url = "https://github.com/ahmadtheswe"
+
+  [[params.social]]
+    icon = "brand-x"
+    name = "X"
+    url = "https://x.com/ahmadtheswe"
+
+  [[params.social]]
+    icon = "brand-linkedin"
+    name = "LinkedIn"
+    url = "https://www.linkedin.com/in/ahmad-mujahid-abdurrahman"
+
+  [[params.social]]
+    icon = "brand-upwork"
+    name = "UpWork"
+    url = "https://www.upwork.com/freelancers/~010b8344148481447c"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "privacy-policy"
+    name = "Privacy Policy"
+    url = "/privacy-policy/"
+    weight = 3
+
+[pagination]
+  pagerSize = 10
+
+[params.style]
+  darkestColor = "#242930"
+  darkColor = "#353b43"
+  lightColor = "#afbac4"
+  lightestColor = "#ffffff"
+  primaryColor = "#57cc8a"
