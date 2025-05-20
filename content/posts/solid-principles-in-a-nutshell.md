@@ -3,7 +3,7 @@ date = '2023-06-23T23:52:06+07:00'
 draft = false
 title = 'Solid Principles in a Nutshell'
 author = 'ahmad'
-categories = ['java', 'solid', 'programming']
+categories = ['insights']
 tags = ['java', 'solid', 'programming']
 featuredImage = '/images/solid-principles-in-a-nutshell/featured.png'
 +++

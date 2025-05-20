@@ -3,7 +3,7 @@ date = '2023-11-25T10:57:49+07:00'
 draft = false
 title = 'How to Export & Import Docker Image'
 author = 'ahmad'
-categories = ['docker', 'docker-image']
+categories = ['docker']
 tags = ['docker', 'docker-image']
 featuredImage = '/images/how-to-export-and-import-docker-image/featured.png'
 +++
